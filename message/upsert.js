@@ -179,7 +179,7 @@ break
 case 'menu':
 await v.react('✨')
 var teks = `\t\t╔═══❖•ೋ° °ೋ•❖═══╗
-\t\t\t『༺࿕༒🖤Iɴᴋʏ🖤༒࿖༻』
+\t\t\t『༺࿕༒🖤IDBQ🖤༒࿖༻』
 \t\t╚═══❖•ೋ° °ೋ•❖═══╝
 
 \t\t\t𖣘✿Ⓑⓞⓣ Ⓘⓝⓕⓞ✿𖣘
@@ -260,7 +260,7 @@ case 'creador':
 case 'creator':
 case 'owner':
 await v.react('✨')
-v.replyContact('🖤ｴɳƙყᴳᵒᵈ🖤', 'Creador de ' + botName, '595995660558')
+v.replyContact('🖤IDBQ🖤', 'Creador de ' + botName, '595984664076')
 break
 
 case 'del':
@@ -567,7 +567,7 @@ if (q < 100) return v.reply('Monto minimo debe de ser de 100$')
 if (q.includes('.')) return v.reply('No se puede jugar con numero decimales')
 if (!isOwner) {
 	if (isVip) {
-		if (q > 10000) return v.reply('Maximo para apostar es de *$10K*')
+		if (q > 100000) return v.reply('Maximo para apostar es de *$100K*')
 	} else{
 		if (q > 5000) return v.reply('Maximo para apostar es de *$5K*')
 	}
